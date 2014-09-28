@@ -13,6 +13,8 @@ You will need [Leiningen][1] 1.7.0 or above installed. You will also need [Postg
 
 You will need to initialise a postgresql database named 'reporting'. You need to edit reporting-example/src/reporting_example/models/db to set the correct user and password.
 
+Uncomment the call to create-employee-table in the same file and run it in a repl to create the employees table.
+
 ## Running
 
 To start a web server for the application, run:

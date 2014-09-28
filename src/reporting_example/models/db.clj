@@ -13,8 +13,9 @@
                     [:place "varchar(50)"]
                     [:country "varchar(50)"]))
 
-
-(sql/with-connection
+;; Uncomment this statement and run it to create and populate the
+;; employee table.
+(comment sql/with-connection
   db
   (create-employee-table)
   (sql/insert-rows
